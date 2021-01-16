@@ -19,7 +19,9 @@ const puppeteer = require('puppeteer');
   //wait for element with `.gLFyf.gsfi` selector
   //is loaded
   await page.type('.gLFyf.gsfi', 'what is my ip');
+  //type some text on `.gLFyf.gsfi` selector
   await page.keyboard.press('Enter');
+  //press `enter` on page
   await page.waitForSelector('span[style="font-size:20px"]');
   //wait for element with `span[style="font-size:20px"]`
   //selector is loaded
