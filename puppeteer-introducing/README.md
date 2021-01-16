@@ -1,4 +1,4 @@
-# Puppeteer introducing
+# Puppeteer: Basic
 Puppeteer is a Node library that provides a high-level API to control Chromium, Chrome, or Firefox.
 
 ## Cases
