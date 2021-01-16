@@ -1,4 +1,4 @@
-![devto badge](https://img.shields.io/badge/dev.to-laontme-010101?style=for-the-badge)
+[![devto badge](https://img.shields.io/badge/dev.to-laontme-010101?style=for-the-badge)](https://dev.to/laontme)
 [![love badge](https://img.shields.io/badge/made_with-❤-ff3053?style=for-the-badge)](https://laont.me/)
 
 # devto
