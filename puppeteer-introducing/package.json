@@ -1,0 +1,8 @@
+{
+  "name": "puppeteer-introducing",
+  "version": "0.0.0",
+  "license": "Unlicense",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  }
+}
