@@ -1,3 +1,4 @@
+# Puppeteer introducing
 Puppeteer is a Node library that provides a high-level API to control Chromium, Chrome, or Firefox.
 
 ## Cases
@@ -26,7 +27,7 @@ yarn add puppeteer
 Puppeteer is now installed, and we ready for coding.
 
 ## Example
-Create the main source file `index.js` with this content:
+Create the main source file `example.js` with this content:
 ```js
 const puppeteer = require('puppeteer');
 
@@ -51,6 +52,8 @@ const puppeteer = require('puppeteer');
   //just visit dev.to automatic
 })();
 ```
+
+And run with `node example`. You can see Chromium browser with [dev.to](https://dev.to)
 
 But what is `async` and `await`? Each puppeteer method is promise and you can use with
 
@@ -93,6 +96,8 @@ console.log(ip)
 await browser.close();
 //close browser
 ```
+
+Save `ip-google.js` file and run with `node ip-google`. Few seconds later you can see your ip in console
 
 ## Bonus. Understanding `(async () => {})()`
 My first reaction when I saw `(async () => {})()` was "wtf is this"
